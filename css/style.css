@@ -10,14 +10,49 @@
 body {
     background: #1C2230;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400,700;
+    font-weight: 400;
     color: white;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Raleway', sans-serif;
 }
 
 @media only screen and (max-width: 375px) {
+    /* Estilos del header */
+    .container {
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 6.4%;
+    }
 
+    .container img {
+        float: left;
+        width: 25%;
+        margin: 6% 0 0 6%;
+    }
+
+    .container a {
+        font-size: 0.8801em;
+        text-decoration: none;
+        color: hsl(243, 86%, 85%); 
+    }
+
+    .container ul {
+        float: right;
+        margin: 7% 5% 0 0;
+    }
+
+    .container li {
+        float: left;
+        text-decoration: none;
+        list-style-type: none;
+        padding-left: 1.3em;
+    }
+
+    /* Estilos de de la introducción */
+
+    
 }
