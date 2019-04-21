@@ -21,36 +21,37 @@ h3 {
 }
 
 @media screen and (max-width: 500px) {
+
     /* Estilos del header */
     .container {
         background-color: #1C2230;
         width: 100%;
         overflow: hidden;
-        padding-bottom: 10%;
+        padding-bottom: 7%;
     }
 
     .container img {
         float: left;
-        width: 17%;
-        margin: 6% 0 0 4%;
+        width: 20%;
+        margin: 6% 0 0 5%;
     }
 
     .container a {
         font-size: 0.8em;
         text-decoration: none;
-        color: hsl(243, 86%, 85%); 
+        color: hsl(243, 86%, 85%);
     }
 
     .container ul {
         float: right;
-        margin: 6% 28% 0 0;
+        margin: 6% 18% 0 0;
     }
 
     .container li {
         float: left;
         text-decoration: none;
         list-style-type: none;
-        padding-left: 1.3em;
+        padding-left: 15px;
     }
 
     /* Estilos de de la introducción */
@@ -60,8 +61,8 @@ h3 {
     }
 
     .Info-Section img {
-        width: 80%;
-        margin-left: 10%;
+        width: 75%;
+        margin-left: 7%;
         position: relative;
     }
 
